@@ -20,12 +20,16 @@ It will be up to you to decide if the risk is worth it! Once a player reaches 10
 
 ## Usage
 
-- Import and use it as follows:
+Run pig.py in a terminal
 
-```Python
->>> from pig_JoseEscauriza import main
+```bash
+python3 src/pigpy
+```
 
->>> main()
+Alternatively, build from Test Pypi by running:
+
+```bash
+pip install -i https://test.pypi.org/simple/ pig-JoseEscauriza
 ```
 
 Once running, the player will first be prompted to enter their name.
@@ -39,3 +43,5 @@ Afterwards a menu will be displayed, prompting the user to pick from one of its 
 3. VIEW POINTS - Player will see their global score displayed on screen, afterwards the menu is shown again (turn is NOT lost).
 
 4. EXIT - Quit the program.
+
+Have fun!
